@@ -1,4 +1,4 @@
-@import "../../../styles/mixins";
+@import '../../../styles/mixins';
 
 .home_hero {
   padding-top: 91px;
@@ -9,18 +9,31 @@
   }
 
   .__text_holder {
-    max-width: 640px;
-    margin-right: 91px;
+    max-width: 530px;
 
     @include mobile {
       position: relative;
       z-index: 1;
     }
     h1 {
-      margin-bottom: 56px;
+      margin-bottom: 32px;
+    }
+    .teal {
+      color: var(--primary-color);
     }
   }
+
+  ._sub_heading {
+    color: var(--text-color);
+    line-height: 1.56;
+    letter-spacing: 1.625px;
+    font-weight: 300;
+    margin-bottom: 3.5em;
+  }
+
   .__image_holder {
+    max-width: 438px;
+    height: 476px;
     @include mobile {
       position: absolute;
       right: -40%;
@@ -29,6 +42,8 @@
       top: 0;
     }
     img {
+      width: 100%;
+      height: 100%;
       @include mobile {
         width: 100%;
       }

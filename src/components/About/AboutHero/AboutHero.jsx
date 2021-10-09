@@ -1,14 +1,16 @@
 import React from "react";
 import "./index.scss";
-import { heroAvatar, facebook, twitter, instagram, linkedin, youtube } from "../../../assets/icons";
+import {facebook, twitter, instagram, linkedin, youtube, anchorfm } from "../../../assets/icons";
 import { SocialMediaLink } from "../../Others/Footer/Footer";
+import HeroChidera  from '../../../assets/hero_chidera.png';
+
 
 export default function AboutHero() {
   return (
     <div className="app_container">
       <div className="app_container__wrapper about_hero _flex a_center">
         <div className="__image_rapper">
-          <img src={heroAvatar} alt="" srcSet="" />
+          <img src={HeroChidera} alt="" srcSet="" />
         </div>
         <div className="__text_holder">
           <p className="bold-48">Chidera Stephen</p>
@@ -26,11 +28,12 @@ export default function AboutHero() {
           </div>
 
           <div className="__social_media_links">
-            <SocialMediaLink to="#" iconSrc={facebook} />
-            <SocialMediaLink to="#" iconSrc={twitter} />
-            <SocialMediaLink to="#" iconSrc={instagram} />
-            <SocialMediaLink to="#" iconSrc={linkedin} />
-            <SocialMediaLink to="#" iconSrc={youtube} />
+            <SocialMediaLink to="https://anchor.fm/chidera-is-here/" iconSrc={anchorfm} />
+            <SocialMediaLink to="https://www.facebook.com/chidera.stephen/" iconSrc={facebook} />
+            <SocialMediaLink to="https://twitter.com/chiderastephen_/" iconSrc={twitter} />
+            <SocialMediaLink to="https://www.instagram.com/chiderastephen_/" iconSrc={instagram} />
+            <SocialMediaLink to="http://www.linkedin.com/in/chidera-stephen-91b425170/" iconSrc={linkedin} />
+            <SocialMediaLink to="https://www.youtube.com/chiderastephen/" iconSrc={youtube} />
           </div>
         </div>
       </div>

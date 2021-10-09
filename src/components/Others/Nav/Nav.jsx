@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <div className="app_container">
       <nav className="app_container__wrapper app_nav _flex a_center j_between">
-        <p className="__logo">Chidera.</p>
+        <NavLink exact to="/" className="__logo">Chidera.</NavLink>
 
         <button
           className="_ham_burger_menu"

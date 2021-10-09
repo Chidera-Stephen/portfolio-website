@@ -4,6 +4,7 @@ export { default as brandImage } from "./svg/brand-image.svg";
 export { default as risingBox } from "./svg/rising-box.svg";
 export { default as chat } from "./svg/chat.svg";
 //socials
+export { default as anchorfm } from "./svg/social/anchor_fm.svg";
 export { default as facebook } from "./svg/social/facebook.svg";
 export { default as twitter } from "./svg/social/twitter.svg";
 export { default as instagram } from "./svg/social/instagram.svg";

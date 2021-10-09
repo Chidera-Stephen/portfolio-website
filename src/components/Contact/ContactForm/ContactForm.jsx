@@ -8,6 +8,7 @@ import {
   instagram,
   linkedin,
   youtube,
+  anchorfm,
 } from "../../../assets/icons";
 import Button from "../../Others/Button/Button";
 
@@ -77,11 +78,12 @@ function Form() {
       <footer className="_flex j_between a_center">
         <Button>Submit</Button>
         <div>
-          <SocialMediaLink to="#" iconSrc={facebook} />
-          <SocialMediaLink to="#" iconSrc={twitter} />
-          <SocialMediaLink to="#" iconSrc={instagram} />
-          <SocialMediaLink to="#" iconSrc={linkedin} />
-          <SocialMediaLink to="#" iconSrc={youtube} />
+        <SocialMediaLink to="https://anchor.fm/chidera-is-here/" iconSrc={anchorfm} />
+          <SocialMediaLink to="https://www.facebook.com/chidera.stephen/" iconSrc={facebook} />
+          <SocialMediaLink to="https://twitter.com/chiderastephen_/" iconSrc={twitter} />
+          <SocialMediaLink to="https://www.instagram.com/chiderastephen_/" iconSrc={instagram} />
+          <SocialMediaLink to="http://www.linkedin.com/in/chidera-stephen-91b425170/" iconSrc={linkedin} />
+          <SocialMediaLink to="https://www.youtube.com/chiderastephen/" iconSrc={youtube} />
         </div>
       </footer>
     </form>
